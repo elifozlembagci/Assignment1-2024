@@ -5,7 +5,7 @@
 
 ```
 
-my_boolean_variable = False @elifozlembagci bu kısmı kontrol edebilir misin?
+my_boolean_variable = True 
 my_float_variable = 3.14
 my_int_variable = 35
 my_string_variable = "Gene 1"
