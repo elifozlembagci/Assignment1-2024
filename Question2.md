@@ -6,16 +6,16 @@ Please assign variables to the individual components of your favorite gene! (e.g
 ```
 promoter = "TATTAAATTAAAATT"
 five_prime_UTR = "GTAATGTTGGGGAAAA"
-5_prime_UTR = "GTAATGTTGGGGAAAA"
+five_prime_UTR = "GTAATGTTGGGGAAAA"
 start_codon = "ATG"
 exon1 = "ATCCCGGGTTCGAACTG"
 intron = "AATTTTTAAGGGGGAAAAA"
 exon2 = "GCATTAGTCCAATGAAG"
 stop_codon = "TAG"
 three_prime_UTR = "AAAATTAAAAAAAAAAA"
-3_prime_UTR = "AAAATTAAAAAAAAAAA"
-my_fav_gene = promoter + 5_prime_UTR + start_codon + exon1 + \
-	      intron + exon2 + stop_codon + 3_prime_UTR
+three_prime_UTR = "AAAATTAAAAAAAAAAA"
+my_fav_gene = promoter + five_prime_UTR + start_codon + exon1 + \
+	      intron + exon2 + stop_codon + three_prime_UTR
 my_fav_gene = promoter + five_prime_UTR + start_codon + exon1 + \
 	      intron + exon2 + stop_codon + three_prime_UTR
 print("My favorite gene sequence is as follows:")
