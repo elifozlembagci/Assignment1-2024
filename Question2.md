@@ -19,6 +19,6 @@ my_fav_gene = promoter + five_prime_UTR + start_codon + exon1 + \
 my_fav_gene = promoter + five_prime_UTR + start_codon + exon1 + \
 	      intron + exon2 + stop_codon + three_prime_UTR
 print("My favorite gene sequence is as follows:")
-print(my_fav_gene)
+print(my_fav_gene) 
 
 ```
